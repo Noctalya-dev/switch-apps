@@ -1,0 +1,45 @@
+{
+  "name": "SWITCH",
+  "identifier": "com.getswitch.source",
+  "subtitle": "La source officielle de SWITCH",
+  "description": "Ajoute cette source dans AltStore ou SideStore pour installer SWITCH et recevoir les mises à jour.",
+  "iconURL": "https://apps.get-switch.com/icon.png",
+  "website": "https://get-switch.com",
+  "tintColor": "#2F6BFF",
+  "featuredApps": [
+    "com.getswitch.app"
+  ],
+  "apps": [
+    {
+      "name": "SWITCH",
+      "bundleIdentifier": "com.getswitch.app",
+      "developerName": "SWITCH",
+      "subtitle": "Ta position, tes règles.",
+      "localizedDescription": "SWITCH change la position de ton iPhone directement depuis l'iPhone : pas besoin d'ordinateur pour l'utiliser.\n\n• Téléportation instantanée partout dans le monde\n• Itinéraires automatiques sur vraies routes, à pied ou en voiture\n• Joystick pour te déplacer manuellement\n• Dynamic Island, favoris et historique\n• Mode camouflage : icône et nom personnalisables\n\nNécessite le mode développeur, l'app LocalDevVPN, et une association unique (automatique sur iOS 27, avec un fichier créé sur ordinateur sur iOS 18 à 26).\n\nEssai gratuit de 3 jours, puis abonnement sur get-switch.com.",
+      "iconURL": "https://apps.get-switch.com/icon.png",
+      "tintColor": "#2F6BFF",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0.1",
+          "buildVersion": "2",
+          "date": "2026-11-18",
+          "localizedDescription": "Connexion plus fiable avec LocalDevVPN, session visible en direct sur le site, liens d'achat vers la page de paiement.",
+          "downloadURL": "https://apps.get-switch.com/download/SWITCH-1.0.1.ipa",
+          "size": 6158990,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocationWhenInUseUsageDescription": "Switch utilise votre position réelle pour afficher le point bleu et revenir à votre position lorsque Switch est désactivé.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Switch utilise votre position pour afficher en permanence le point bleu et maintenir la simulation pendant l’utilisation en arrière-plan.",
+          "NSLocalNetworkUsageDescription": "Switch utilise le réseau local uniquement pour communiquer avec les services de développement de cet iPhone et simuler sa position."
+        }
+      }
+    }
+  ],
+  "news": []
+}
