@@ -15,12 +15,21 @@
       "bundleIdentifier": "com.getswitch.app",
       "developerName": "SWITCH",
       "subtitle": "Ta position, tes règles.",
-      "localizedDescription": "SWITCH change la position de ton iPhone directement depuis l'iPhone : pas besoin d'ordinateur pour l'utiliser.\n\n• Téléportation instantanée partout dans le monde\n• Itinéraires automatiques sur vraies routes, à pied ou en voiture\n• Joystick pour te déplacer manuellement\n• Dynamic Island, favoris et historique\n• Mode camouflage : icône et nom personnalisables\n\nNécessite le mode développeur, l'app LocalDevVPN, et une association unique (automatique sur iOS 27, avec un fichier créé sur ordinateur sur iOS 18 à 26).\n\nEssai gratuit de 3 jours, puis abonnement sur get-switch.com.",
+      "localizedDescription": "SWITCH change la position de ton iPhone directement depuis l'iPhone : pas besoin d'ordinateur pour l'utiliser.\n\n• Téléportation instantanée partout dans le monde\n• Itinéraires automatiques sur vraies routes, à pied ou en voiture\n• Joystick pour te déplacer manuellement\n• Dynamic Island, favoris et historique\n• Mode camouflage : icône et nom personnalisables\n\nNécessite le mode développeur, l'app LocalDevVPN, et une association unique (automatique sur iOS 27, avec un fichier créé sur ordinateur sur iOS 18 à 26).\n\nEssai gratuit de 3 jours à partir de ta première activation (un par iPhone), puis abonnement sur get-switch.com.",
       "iconURL": "https://apps.get-switch.com/icon.png",
       "tintColor": "#2F6BFF",
       "category": "utilities",
       "screenshots": [],
       "versions": [
+        {
+          "version": "1.0.2",
+          "buildVersion": "3",
+          "date": "2026-11-19",
+          "localizedDescription": "L'essai gratuit de 3 jours démarre à ta première activation, une fois par iPhone. Ton iPhone est reconnu même après une réinstallation avec un autre identifiant Apple.",
+          "downloadURL": "https://apps.get-switch.com/download/SWITCH-1.0.2.ipa",
+          "size": 6183325,
+          "minOSVersion": "18.0"
+        },
         {
           "version": "1.0.1",
           "buildVersion": "2",
